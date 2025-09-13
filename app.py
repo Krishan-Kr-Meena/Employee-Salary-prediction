@@ -123,7 +123,7 @@ st.markdown("---")
 st.markdown("## 📊 Data Visualizations")
 
 try:
-    sample_data = pd.read_csv('adult 3.csv')
+    sample_data = pd.read_csv('Dataset/adult 3.csv')
     st.write("📊 Sample Data Overview")
     st.dataframe(sample_data.head())
 
