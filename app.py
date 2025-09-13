@@ -6,8 +6,8 @@ import seaborn as sns
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
 
 # Load model & encoders
-model = joblib.load('best_model.pkl')
-encoders = joblib.load('encoders.pkl')
+model = joblib.load('Saved Models/best_model.pkl')
+encoders = joblib.load('Saved Models/encoders.pkl')
 
 st.set_page_config(page_title="Employee Salary Prediction App", layout="wide")
 
